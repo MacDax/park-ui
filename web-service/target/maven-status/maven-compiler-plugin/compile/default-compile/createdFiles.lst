@@ -1,0 +1,6 @@
+com\parkcompass\modules\microservices\services\web\Account.class
+com\parkcompass\modules\microservices\services\web\WebAccountsController.class
+com\parkcompass\modules\microservices\services\web\SearchCriteria.class
+com\parkcompass\modules\microservices\services\web\WebServer.class
+com\parkcompass\modules\microservices\services\web\WebAccountsService.class
+com\parkcompass\modules\microservices\services\web\HomeController.class

@@ -1,0 +1,15 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header :: copy"></head>
+
+<body>
+	<div id="locationField"><input id="autocomplete"  type="text" placeholder="Enter Address" /></div>
+	<div id="googleMap" style="width: 500px; height: 400px;" ></div>
+	<div id="schedule" style="width:400px;"></div>
+	<div th:replace="footer :: copy"></div>
+	<script src="/js/sweepschedule.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyD_yBCEbeHzr6T71GroPsjXsApSNfjEems&libraries=places&callback=initMap" type="text/javascript"  async defer></script>
+</body>
+</html>
